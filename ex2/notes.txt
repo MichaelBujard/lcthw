@@ -1,0 +1,22 @@
+makefiles work by
+
+implied dependencies 
+
+ancient tradition
+
+
+CFLAG=-Wall	-g
+lt-in rules. Make has in a configuration file....when told to build an output of filename, make an executable of filename.
+
+How make works:
+
+	we're saying ex1 depends on ex1.c.
+
+it's a rules engine. Look them up.
+
+GNU make manual is good
+
+bsd make manual is good. Read that.
+
+Hard to find books about how to write good Makefile files.
+

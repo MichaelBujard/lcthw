@@ -1,0 +1,330 @@
+GDB quick reference Linux
+
+LLDB quick reference for ??
+
+same commands.
+
+Play with the code.
+valgrind is a debugging tool that uses the heap to tell you where you messed up in code in memory.
+
+splint is another debugging tool.
+
+lint is another debugging tool.
+
+Using addressSanitizer -> you need clang compiler to do this.
+
+it's another debugging tool.
+
+Might work differently on Windows or OS X.
+
+
+to break stuff to see what happens.
+
+Make code that crashes --you will.
+
+exercise 5. memorizing C operators.
+
+1<<`'res learned in regular programming
+
+learn a whole munch of programming languages.
+
+tricks to speed up ability to learn new programming languages.
+
+learn why programming works.
+
+Learn how to memorize things.
+
+Review the C operators.
+
+They're all on Google.
+
+MEMORIZATION:
+	backdoor to learning hack
+	memorize basic operators/facts, then reading is faster.
+	works with any language.
+
+memorizing the names of operators and what they are is easily the fastest way to learn how to code
+
+
+list of syntax,
+	forms,
+	operators
+
+write everything on index cards.
+
+anki program is a prgram thaat does flash cards. Use that and your own cards. YOU write YOUR OWN cards.
+
+spend 30-60 minutes a day.
+
+Track what you don't know.
+
+DRILL yourself more on the topics that you don't know.
+
+1st thing in the morning!!!
+
+On the bus!
+
+Any cards that you don't know hard, / hot, put them in a pile.
+
+Then, go through them.
+
+Pile for knoes you know,
+
+pile 2 for ones you don't.
+
+Anki does this for you...
+
+or you can do index cards.
+
+
+OPERATORS_______________
+
+
+Arithmetic operators
+
++ add
+- subtract
+* multiply
+/ divide
+% modulus
+++ increment (pre- or post-)
+-- decrement (pre- or post-)
+
+RELATIONAL OPERATORS
+
+== equal
+!= not equal
+>= greater than/equal
+<= less than / equal
+> greater than
+< less than
+
+LOGICAL OPERATORS
+
+&& logical and
+|| logical or
+! logical not
+? : logical ternary
+ 
+BITWISE OPERATORS
+
+& bitwise and
+| bitwise or
+^ bitwise xor
+~ bitwise ones complement
+<< bitwise shift left
+>> bitwise shift right
+
+_______________
+Assignment operators:
+
+= assign equal
++= assign plus-equal
+-= assign minus-equal
+*= assign multiply-equal
+/= assign divide-equal
+%= assign modulus-equal
+<<= assign shift-left-equal
+>>= assign shift-right-equal
+&= assign and-equal
+^= assign xor-equal
+|= assign or-equal
+sizeof() get the size of
+
+__________________
+"data operators"
+
+[] array subscript
+& the address of
+* the value of / a pointer to 
+-> structure dereference
+. structure reference
+
+_________________________
+miscellaneous "operators"
+, comma
+ () parenthesis
+{} braces
+: colon
+// single-line comment start
+/* multi-line comment start
+*/ multi-line comment end
+
+note: these operators are not all named according to c-language standards.
+
+
+EXERCISE 6: KEYWORDS OF C MEMORIZATION TABLES
+
+Memorization is the fastest way to learn.
+
+Just takes effort.
+
+
+EXECUTION KEYWORDS:
+break - Exit out of a compound statement
+case - A branch in a switch statement
+continue - Continue to the top (next iteration of) a loop
+do - start a do-while loop
+default - Default branch in a switch statement
+for - Start a for-loop
+goto - Jump to a label
+if - Starts an if-statement
+return - Return from a function
+switch - Start a switch statement
+while - Start a while loop
+
+TYPE keywords
+
+char - Character data type
+double - a double floating point data type
+float - A floating point data type
+int - an integer data type
+long - a long integer data type
+short - a short integer data type
+void - declare a data type array
+union - start a untion-statement
+struct - combine variables into a single keyword
+
+DATA keywords:
+
+auto - Give a local variable a local lifetime
+const - Make a variable unmodifiable
+enum - Define a set of int constants
+extern - Declare an identifier that is defined externally
+register - Declare a variable to be stored in a CPU register
+signed - A signed modifier for integer data types
+sizeof - determine the size of data (can't tack on to variable)
+static - preserve variable value after its scope exits
+typedef - create a new type
+unsigned - an unsigned modifier for integer data types
+volatile - Declare a variable that might be modified elsewhere
+
+
+SECOND BATCH OF CARDS
+
+IF-STATEMENT:
+
+if (condiiton) {
+    code;
+} else if (condition2) {
+    code;
+} else {
+    code;
+}
+
+SWITCH:
+
+switch (cond) {
+
+    case CONSTANT:
+        code;
+        break;
+    default:
+        code;
+
+}
+
+
+WHILE:
+
+while (condition) {
+    code;
+}
+
+WHILE WITH CONTINUE:
+
+while (cond) {
+    if (cond2) {
+        continue;
+    }
+    code;
+}
+
+
+WHILE WITH BREAK:
+
+while (condition) {
+    if (cond2) {
+        break;
+    }
+    code;
+}
+
+DO-WHILE:
+
+do {
+    code;
+} while (cond);
+
+FOR-LOOP
+
+for (init; test; post-operation) {
+    code;
+}
+// iteration through integers in counting only
+// continue and break work with for
+
+ENUM:
+
+enum { const1, const2, . . . , const[n-1], const[n] } NAME;
+
+GOTO:
+
+if (cond) {
+    goto fail;
+}
+
+fail:
+    code;
+
+//hide goto behind macros.
+
+
+__________
+FUNCTIONS:
+
+TYPE NAME (arg1, arg2, . . . , arg[n-1], argn) {
+    code;
+    return VALUE;
+}
+
+________
+TYPEDEF:
+
+typedef DEFINITION IDENTIFIER;
+
+// e.g. "this more complicated type is going to have a new name.
+
+// e.g.: 
+
+typedef unsigned char byte;
+
+___________
+STRUCT:
+
+struct NAME {
+    ELEMENTS;
+} [VARIABLE_NAME];
+
+
+___________
+TYPEDEF STRUCT:
+typedef struct [STRUCT_NAME] {
+    ELEMENTS;
+} IDENTIFIER;
+
+_____________
+UNION:
+
+union NAME {
+    ELEMENTS;
+} [VARIABLE_NAME];
+
+// take an opaque piece of data and compile parts of data on top of each other...
+
+// Make cards and drill these!!!
+// LOVE THE CROSS IN MEMORIZATION! LEARN TO LEARN A PROGRAMMING LANGUAGE!!!
+
+EXERCISE 7:
+
+
